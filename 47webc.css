@@ -13,6 +13,18 @@ body {
     flex-direction  : column;
     background-color: black;
 }
+#score-box {
+    display: flex;
+    width  : 90vw;
+    border : 2px solid rgb(0, 255, 4);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+    #score-box p {
+        color: rgb(0, 255, 4);
+        padding-left: 10px;
+    }
 #container {
     display : flex;
     height  : 90vw;

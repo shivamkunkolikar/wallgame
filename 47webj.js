@@ -62,7 +62,7 @@ function mainGame() {
             }
             score = score + 1;
             if (score % 50 == 0) { inr_acc = inr_acc + 0.2; }
-            console.log(score);
+            document.getElementById("score-num").innerHTML = `${score}`;
         }
     }, 50);
 }
