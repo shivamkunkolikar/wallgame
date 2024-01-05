@@ -17,7 +17,7 @@ body {
     display : flex;
     height  : 90vw;
     width   : 90vw;
-    border  : 2px solid rgb(0, 255, 4);
+    border  : 2px solid rgb(173, 183, 173);
     z-index : 1;
     /* flex-direction: column; */
     background-color: rgb(52, 52, 52);
@@ -31,6 +31,7 @@ body {
     z-index : 2;
     left    : 45%;
     top     : 45%;
+    background-color: red;
 }
 #button-pad {
     display: flex;
