@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game</title>
-    <link rel="stylesheet" href="47webc.css">
+    <link rel="stylesheet" href="gamepage.css">
+    <link rel="stylesheet" href="startpage.css">
 </head>
 <body>
+<div id="start-page">
+    <div id="logo">
+
+    </div>
+    <div id="btncont">
+        <div class="str-btn" id="str-btn1" onclick="newGame()">New Game</div>
+        <div class="str-btn" id="str-btn2" onclick="highScore()">High Score</div>
+    </div>
+</div>
+
+<div id="game-page">
     <div id="score-box">
         <p>Score : </p>
         <p id="score-num">0</p>
@@ -21,5 +33,6 @@
         <div><button class="btn" id="btn4" onclick="rightClick()">RIGHT</button></div>
     </div>
     <script src="47webj.js"></script>
+</div>
 </body>
 </html>
