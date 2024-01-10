@@ -42,11 +42,17 @@ body {
     align-items    : center;
     background-color: rgb(30, 30, 30);
     /* animation: fadinganimation 0.2s ease-in-out 0s 1 ; */
+    flex-direction: column;
 }
     .str-btn:hover {
         background-color: rgb(45, 45, 45);
     }
 
+#hsd {
+    display: none;
+    color: rgb(0, 255, 4);
+    font-size: 24px;
+}
 @keyframes fadinganimation {
     0% {
         opacity: 1;
